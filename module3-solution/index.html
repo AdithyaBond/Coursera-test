@@ -1,32 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Boostrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  </head>
-  </head>
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Module 3 Coding Assignment </title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+</head>
+
 <body>
 
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-brand">
-            <a><h1>Food LLC</h1></a>
-          </div>
+<header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container"> 
+            <div class="navbar-header">
+              <div class="navbar-brand">
+                <a href="index.html"><h1>Food, LLC</h1></a>
+              </div> 
+
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                    data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+              
+              <ul id="nav-list" class="nav navbar-nav navbar-right">
+          
+                <li class="visible-xs active">
+                  <a href="index.html">
+                  <span class="glyphicon glyphicon-cutlery2"></span> <!---icon for chicken -->
+                  <br class="hidden-xs"> Chicken</a>
+                </li>
+
+                <li class="visible-xs active">
+                  <a href="index.html">
+                  <span class="glyphicon glyphicon-cutlery2"></span> <!---icon for Beef -->
+                  <br class="hidden-xs"> Beef</a>
+                </li>
+
+                <li class="visible-xs active">
+                  <a href="index.html">
+                  <span class="glyphicon glyphicon-cutlery2"></span> <!---icon for Sushi -->
+                  <br class="hidden-xs"> Sushi</a>
+                </li>
+              </ul><!-- #nav-list -->
+    
+            </div><!-- .collapse .navbar-collapse -->
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+</header>
 
-  <h1>Our Menu</h1>
+<h2 class="text-center">Our Menu</h2><br>
 
- 
+<div class="container my-container">
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 my-col">
+      <p> <span class="text-center"> Chicken </span> <br> <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. 
+    <br><a href="index.html" class="visible-xs active"> Back to Top.</a></p>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 my-col">
+     <p> <span class="text-center"> Beef </span> <br> <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem.
+    <br><a href="index.html" class="visible-xs active"> Back to Top.</a> </p>
+    </div>
+
+    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 my-col">
+     <p> <span class="text-center"> Sushi </span> <br> <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem.
+    <br> <a href="index.html" class="visible-xs active"> Back to Top. </a></p>
+    </div>
+</div>
+
+<footer>
+</footer>
+
+
+<!-- jQuery (Bootstrap JS plugins depend on it) --> 
+<script src="js/jquery-3.3.7-dist.min.js" ></script>
+<script src="js/bootstrap.min.js"></script> 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+
 </body>
 </html>
+
+
