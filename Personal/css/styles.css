@@ -184,6 +184,9 @@ body {
     .navbar-nav span{
      font-size: 0.5em;
      }
+     .fas {
+      font-size: 2em;
+     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     #skills-tile p {
@@ -195,6 +198,9 @@ body {
     .navbar-nav span{
      font-size: 0.9em;
      }
+     .fas {
+      font-size: 1.4em;
+     }
 }
 @media (min-width: 1200px) {
     #skills-tile p {
@@ -205,5 +211,8 @@ body {
     }
     .navbar-nav span{
      font-size: 1em;
+     }
+     .fas {
+      font-size: 1.4em;
      }
 }
