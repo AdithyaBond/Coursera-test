@@ -23,24 +23,18 @@ body {
   margin-bottom: 0;
   line-height: .75;
   text-align: center;
-  
 }
 .fas {
   color: #fff;
-  
   text-align: center;
   float: right;
-
 }
 .navbar-toggler {
-  
   color: white;
- 
-}
+ }
 
 .navbar-nav span{
-  
-  font-family: 'Oxygen';
+   font-family: 'Oxygen';
 }
 
 .center {
@@ -135,7 +129,7 @@ body {
 
 .navbar-nav span{
   color: white;
-  text-align: center;
+  text-align: right;
 }
 
 /********** Extra small devices only **********/
@@ -176,10 +170,9 @@ body {
       border: 1px solid white;
      }
      .navbar-toggler {
-  border: 1px solid white;
-  color: white;
- 
-}
+      border: 1px solid white;
+      color: white;
+    }
 
 }
 @media (min-width: 401px) and (max-width: 768px)  {
@@ -197,10 +190,13 @@ body {
       border: 1px solid white;
      }
      .navbar-toggler {
-  border: 1px solid white;
-  color: white;
- 
-}
+       border: 1px solid white;
+       color: white;
+     }
+     .fa-home {
+      margin-left: 300px;
+     }
+     
 
 }
 @media (min-width: 769px) and (max-width: 991px) {
@@ -216,6 +212,10 @@ body {
      .fas {
       font-size: 2em;
      }
+     .fa-home {
+      margin-left: 300px;
+     }
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     #skills-tile p {
@@ -230,6 +230,10 @@ body {
      .fas {
       font-size: 1.4em;
      }
+     .fa-home {
+      margin-left: 400px;
+     }
+
 
 }
 @media (min-width: 1200px) {
@@ -245,4 +249,8 @@ body {
      .fas {
       font-size: 1.4em;
      }
+     .fa-home {
+      margin-left: 500px;
+     }
+
 }
